@@ -1,0 +1,82 @@
+
+@font-face {
+  font-family: 'Tajawal';
+  src: url('../fonts/Tajawal-Regular.woff2') format('woff2'), 
+  url('../fonts/Tajawal-Regular.woff');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: 'Tajawal';
+  src: url('../fonts/Tajawal-Bold.woff2') format('woff2'), 
+  url('../fonts/Tajawal-Bold.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+body {
+  font-family: "Tajawal";
+  height: 100vh;
+  overflow-y: hidden;
+}
+.Mosque{
+  background-image: url("../images/1.jpg");
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 15px
+}
+.logo img{
+  max-width: 100%;
+  margin-bottom: 15px;
+}
+.wait_{
+  margin: 0;
+  padding: 0;
+  font-size: 26px;
+  font-family: "Tajawal";
+  color: rgb(255, 255, 255);
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+.logo{
+  text-align: center;
+}
+.number{
+  margin-bottom: 10px;
+}
+.number, .email{
+  font-size: 24px;
+  font-family: "Tajawal";
+  color: rgb(255, 255, 255);
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+}
+.btn_{
+  border: none;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: -moz-linear-gradient( 18deg, rgb(204,114,55) 0%, rgb(227,186,36) 100%);
+  background-image: -webkit-linear-gradient( 18deg, rgb(204,114,55) 0%, rgb(227,186,36) 100%);
+  background-image: -ms-linear-gradient( 18deg, rgb(204,114,55) 0%, rgb(227,186,36) 100%);
+}
+.number i, .email i{
+  font-size: 18px;
+  color: rgb(24, 24, 24);
+  
+}
+.btn_ {
+  margin-left: 15px;
+}
+
