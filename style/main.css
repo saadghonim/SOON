@@ -79,4 +79,21 @@ body {
 .btn_ {
   margin-left: 15px;
 }
-
+@media(max-width:450px){
+  .logo img{
+    width: 290px;
+  }
+  .number, .email{
+    font-size: 22px;
+  }
+  .wait_{
+    font-size: 24px;
+  }
+  .btn_ {
+    width: 37px;
+    height: 37px;
+  }
+  .number i, .email i{
+    font-size: 17px;
+  }
+}
