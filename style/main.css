@@ -25,12 +25,10 @@ body {
 }
 .Mosque{
   background-image: url("../images/1.jpg");
-  background-size: cover;
+  background-position: bottom;
   height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 0 15px
+
+  padding: 100px 15px
 }
 .logo img{
   max-width: 100%;
@@ -58,6 +56,8 @@ body {
   font-weight: 700;
   display: flex;
   justify-content: center;
+  align-items: flex-end;
+
 }
 .btn_{
   border: none;
@@ -84,7 +84,7 @@ body {
     width: 290px;
   }
   .number, .email{
-    font-size: 22px;
+    font-size: 20px;
   }
   .wait_{
     font-size: 24px;
@@ -95,5 +95,8 @@ body {
   }
   .number i, .email i{
     font-size: 17px;
+  }
+  .Mosque{
+    padding: 100px 15px;
   }
 }
